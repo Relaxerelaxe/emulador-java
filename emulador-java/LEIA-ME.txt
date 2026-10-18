@@ -1,0 +1,13 @@
+EMULADOR DE JOGOS JAVA (J2ME / .jar) NO NAVEGADOR
+Base: freej2me-web (zb3) - GPL. Roda via CheerpJ (precisa de internet para carregar o runtime).
+
+COMO USAR
+1) Hospede a pasta em qualquer servidor estatico (GitHub Pages, Netlify, Cloudflare Pages, Vercel)
+   ou teste local:  python3 -m http.server 8000   e abra http://localhost:8000
+   (NAO abra o index.html com duplo clique: precisa de servidor http).
+2) Na pagina, envie um .jar (e .jad se tiver) e jogue.
+
+TECLAS: setas = direcionais | Enter = OK | Q/F1 = soft esquerda | W/F2 = soft direita
+        0-9 = teclado numerico | E = * | R = # | Esc = opcoes do emulador
+Se o jogo falhar: Esc > mude tamanho da tela, flags de compatibilidade, desligue o som e reinicie.
+Recursos: 3D (M3G e Mascot Capsule), MIDI, audio, tela cheia, teclado virtual para celular.
